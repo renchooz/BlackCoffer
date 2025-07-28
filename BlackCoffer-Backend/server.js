@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import "dotenv/config";
 import ConnectDb from './config/db.js';
-import dataRoutes from './routes/dataRoutes.js';
+import dataRoutes from './routes/DataRoutes.js';
 
 const app = express();
 
